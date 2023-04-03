@@ -73,7 +73,3 @@ inquirer.prompt(questions)
     });
   })
   .catch(err => console.error(err));
-
-  function generateMarkdown(data) {
-    console.log(data);
-  }
