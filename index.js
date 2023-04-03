@@ -36,8 +36,8 @@ const questions = [
       message: 'Please select which license applies to this project:',
       choices: [
         'MIT',
-        'GNU GPL v3',
-        'Apache 2.0',
+        'GNU GPL',
+        'Apache',
         'CC-BY-SA',
         'ISC',
         'None'
@@ -132,3 +132,43 @@ init();
 //   `;
 //   }
   
+// // TODO: Create a function to generate license text based on user selection.
+// function getLicenseText(license) {
+//     switch (license) {
+//       case 'MIT':
+//         return 'This project is licensed under the terms of the MIT license.';
+//       case 'GNU GPL':
+//         return 'This project is licensed under the terms of the GNU GPL v3 license.';
+//       case 'Apache':
+//         return 'This project is licensed under the terms of the Apache 2.0 license.';
+//       case 'CC-BY-SA':
+//         return 'This project is licensed under the terms of the Creative Commons Attribution Share Alike 4.0 International license.';
+//       case 'ISC':
+//         return 'This project is licensed under the terms of the ISC license.';
+//       default:
+//         return 'No license selected.';
+//     }
+//   }
+  
+//   // TODO: Create a function to generate badge URL based on user selection.
+//   function getBadgeUrl(license) {
+//     switch (license) {
+//       case 'MIT':
+//         return 'MIT';
+//       case 'GNU GPL v3':
+//         return 'GPL-3.0';
+//       case 'Apache 2.0':
+//         return 'Apache-2.0';
+//       case 'CC-BY-SA':
+//         return 'CC-BY-SA-4.0';
+//       case 'ISC':
+//         return 'ISC';
+//       default:
+//         return '';
+//     }
+//   }
+  
+//   // TODO: Create a function to write README file.
+//   function generateReadme(data) {
+//     // generate the README content using the provided data
+//     const readmeContent = `# ${data.title}\n\n${data.description}\n\n## Table of Contents\n\n* [Installation](#installation)\n* [Usage](#usage)\n* [Contributing](#contributing)\n* [Tests](#tests)\n* [License](#license)\n* [Questions](#questions)\n\n## Installation\n\n${data.installation}\
