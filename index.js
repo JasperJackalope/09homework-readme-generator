@@ -31,9 +31,17 @@ const questions = [
       message: 'Please provide usage instructions for the project.'
     },
     {
-      type: 'input',
+      type: 'list',
       name: 'license',
-      message: 'Please enter which license applies to this project.'
+      message: 'Please select which license applies to this project:',
+      choices: [
+        'MIT',
+        'GNU GPL v3',
+        'Apache 2.0',
+        'CC-BY-SA',
+        'ISC',
+        'None'
+      ]
     },
     {
       type: 'input',
