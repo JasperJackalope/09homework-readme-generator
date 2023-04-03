@@ -1,4 +1,7 @@
-// TODO: Include packages needed for this application. 
+// TODO: Include packages needed for this application. Installed and consts below.
+
+const fs = require('fs');
+const inquirer = require('inquirer');
 
 // TODO: Create an array of questions for user input
 const questions = [];
