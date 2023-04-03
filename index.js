@@ -46,19 +46,23 @@ const questions = [
     {
       type: 'input',
       name: 'contirbuting',
-      message: 'Please provide any necessary installation information.'
+      message: 'Please list any contributors who added to this project.'
     },
     {
       type: 'input',
       name: 'tests',
-      message: 'Please provide usage instructions for the project.'
+      message: 'TBD'
     },
     {
       type: 'input',
       name: 'questions',
-      message: 'Please enter which license applies to this project.'
+      message: 'Please provide your GitHub useranme and a link to the repository.'
     },
-    // ... add more questions as needed
+    {
+      type: 'input',
+      name: 'questions2',
+      message: 'Please provide your email address for contact.'
+      },
   ];
   
 
