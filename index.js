@@ -60,7 +60,9 @@ const questions = [
 
 inquirer.prompt(questions)
   .then(answers => {
+    console.log(answers);
     const markdown = generateMarkdown(answers);
+    console.log(markdown);
 
     fs.writeFile('README.md', markdown, err => {
       if (err) {
@@ -71,3 +73,7 @@ inquirer.prompt(questions)
     });
   })
   .catch(err => console.error(err));
+
+  function generateMarkdown(data) {
+    console.log(data);
+  }
