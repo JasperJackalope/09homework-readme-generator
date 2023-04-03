@@ -48,14 +48,14 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'github',
-    message: 'Please enter your GitHub username.'
+    name: 'questions',
+    message: 'Please provide your GitHub useranme and a link to the repository.'
   },
   {
     type: 'input',
-    name: 'email',
-    message: 'Please enter your email address.'
-  }
+    name: 'questions2',
+    message: 'Please provide your email address for contact.'
+    }
 ];
 
 inquirer.prompt(questions)
