@@ -49,12 +49,17 @@ const questions = [
   {
     type: 'input',
     name: 'questions',
-    message: 'Please provide your GitHub useranme and a link to the repository.'
+    message: 'Please provide your GitHub useranme.'
   },
   {
     type: 'input',
     name: 'questions2',
-    message: 'Please provide your email address for contact.'
+    message: 'Please a link to the GitHub repository.'
+  },
+  {
+    type: 'input',
+    name: 'questions3',
+    message: 'Please provide your email address.'
     }
 ];
 
