@@ -1,6 +1,6 @@
 # Test
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description
 
@@ -15,11 +15,11 @@ Test
 - [Questions](#questions)
 ## License
 
-This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
+This project is licensed under the [Apache](https://opensource.org/licenses/Apache-2.0) license.
 
 ## Installation
 
-Test
+Testy test.
 
 ## Usage
 
@@ -35,4 +35,4 @@ Test
 
 ## Questions
 
-For questions, contact me at Test. My GitHub username is Test.
+For questions, contact me at test@test.com. My GitHub username is Test.com.
