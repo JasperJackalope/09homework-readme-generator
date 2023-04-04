@@ -40,4 +40,4 @@ For questions, contact me at djb.ske@gmail.com.
 
 My GitHub username is JasperJackalope and here is a link to the repository for this project: https://github.com/JasperJackalope/09homework-readme-generator  .
 
-Link to the video: https://drive.google.com/file/d/1QXhu6JaBpoYjcgrD0PxS-ai4ImzRiNYk/view?usp=share_link
+Link to the demonstration video: https://drive.google.com/file/d/1QXhu6JaBpoYjcgrD0PxS-ai4ImzRiNYk/view?usp=share_link
