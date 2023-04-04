@@ -54,7 +54,7 @@ const questions = [
   {
     type: 'input',
     name: 'questions2',
-    message: 'Please a link to the GitHub repository.'
+    message: 'Please add a link to the GitHub repository.'
   },
   {
     type: 'input',
