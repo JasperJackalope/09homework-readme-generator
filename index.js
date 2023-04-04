@@ -64,10 +64,8 @@ const questions = [
 ];
 
 inquirer.prompt(questions)
-  .then(answers => {
-    console.log(answers);
+  .then(answers => {;
     const markdown = generateMarkdown(answers);
-    console.log(markdown);
 
     fs.writeFile('README.md', markdown, err => {
       if (err) {
